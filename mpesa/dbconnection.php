@@ -2,7 +2,7 @@
 function insert_response($jsonMpesaResponse){
     $servername = "localhost";
     $username = "nimcoke";
-    $password = "B2Dumd847o";
+    $password = "";
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=nimcoke_passioncafe", $username, $password);
