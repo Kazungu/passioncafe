@@ -17,7 +17,7 @@
         curl_close($curl); 
 //variables
     $url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
-    $BusinessShortCode = '174379';
+    $BusinessShortCode = '600198';
     $TimeStamp = date('YmdGis');
     $Amount = '10';
     $PartyA = '254700551212';
